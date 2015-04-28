@@ -1,0 +1,81 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{natbib}
+\usepackage{url}
+
+\begin{document}
+
+\setlength{\parindent}{20pt}
+
+\begin{titlepage}
+\author{Carlos Melian, Marcelo Awade, Charles Santana} % Correct names
+\title{\textbf{Is long-term research vanishing?}}
+\maketitle
+\end{titlepage}
+
+\doublespacing
+
+\section*{General overview}
+\begin{description}
+ \item[1. General goals] \hfill
+ 
+\textbf{Model the evolution of academia.}
+How one or more academics traits evolve in time.
+How the fitness of an academic researcher varies in time according to its publication or colaboration strategy (\textit{i.e.} point of view about science).
+	
+\item[2. Concepts] \hfill 
+	
+\textbf{Currency (\textit{i.e.} in terms of what fitness is evaluated)}: an index of publication strength; a publication score.
+	
+\textbf{Trait}: some variable describing an individual and used to determine their similarity with others.
+% willingness of cooperation with another individual. (used to calculate the probability of cooperation).
+%	\begin{description}
+	%\item [\textit{Issues}] \hfill \\
+	%What is exactly the trait? At this moment, I can only treat it as a continuous variable describing the personality of the individual. Or, a variable sinthesizing the subjects of interest of an individual. 
+	%\end{description}
+It may be interpreted as the personality of the individual, its behaviour, subjects of interest, point of view in science or any variable that sinthesizes an attribute of an individual. 
+For example, a trait may describe an strategy of doing science, such as a gradient between broad interests and questions or deep interest in specific questions. 
+Or, it may describe a gradient between empirical and theoretical interests.
+Thus, trait is an abstract variable and here its value will vary between 0 and 1.
+
+\textbf{Risk tolerance}: how the strength of interaction between two individuals varies in relation to the similarity between them. 
+In this case, it is a parameter of the probability distribution giving the probability of cooperation as function of similarity.
+For a given similarity between two individuals, those assuming higher risk have a higher probability of interaction compared to those assuming lower risk.
+It should be interpreted as the willingness of making colaborations, in a way that more willingness is correlated to more tolerance risk, assuming that making a colaboration is always risky.
+
+
+%\textbf{Gradient of strategies}: the strategies for colaboration and production can be seen as a gradient.
+%At one extreme, there is a pure ``horizontal"  strategy (\textbf{H}) in which the individual looks for long-term research and for reconciling many subjects in an area of knowledge.
+%At the other extreme, there is a pure ``vertical" strategy (\textbf{V}) in which the individual looks for fast and simple research that can be conducted in short time.
+
+\item[\textbf{3. Assumptions}] \hfill
+
+%\textbf{1)} As closer to the  \textbf{H} extreme as higher the risk tolerance. So individuals in the \textbf{H} extreme are more prone to colaborate with others no matter the similarity between them.
+%Furthermore, \textbf{H} individuals produces articles in journals of higher impact factor than \textbf{V} strategists (any other measure of quality, impact or magnitude of the published research may be also used).
+%However, \textbf{H} strategists spend more time to publish their works if compared to those in the \textbf{V} extreme of the gradient.
+
+\item[4.]
+$$ W_{ijk} ~ $$ (Environmental Selection, Tolerance to Risk, Administration Load)
+$$ W_{ijk} = e^{-\alpha S_{ik}}(1+e^{-\beta S_{ij}} - \gamma)$$
+$$ W_{ijk} = \phi N$$
+$$ p_{ij} = e^{- \frac{1}{\beta_i}| t{i} - t{j}|}$$
+
+$\beta_i$ is a parameter that measure the collaboration willingness of individuals according to their similarities.
+\item[5.]
+
+\item[6.]
+
+\item[7.]
+
+ \end{description}
+
+\end{document}
