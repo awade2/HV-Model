@@ -1,4 +1,5 @@
-setwd("~/Pesquisa/Sanduiche-Melian/HV-model_CPP")
+#setwd("~/Pesquisa/Sanduiche-Melian/HV-model_CPP")
+setwd("/home/cdesantana/Data/HV-Model");
 # Função "wrapper" para a chamada em C:
 #
 # Os passos abaixo foram adaptados de http://users.stat.umn.edu/~geyer/rc/
